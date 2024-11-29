@@ -1,0 +1,23 @@
+.title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.color-list {
+  display: flex;
+}
+
+.color-block {
+  flex: auto;
+  height: 86px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &.isLight {
+    color: black;
+  }
+}
